@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectPreferences>
+<DefaultUser>smurphy</DefaultUser>
+<DefaultSecondUser></DefaultSecondUser>
+<ClientCertificateThumbprint>1E003E0447239B462D828CC7D6ADA1DA5B548099</ClientCertificateThumbprint>
+<ServerCertificateThumbprint></ServerCertificateThumbprint>
+<DefaultHostName>vpn.sessionm.com</DefaultHostName>
+<DefaultHostAddress></DefaultHostAddress>
+<DefaultGroup>SessionM_Corporate</DefaultGroup>
+<ProxyHost></ProxyHost>
+<ProxyPort></ProxyPort>
+<SDITokenType>none</SDITokenType>
+<ControllablePreferences></ControllablePreferences>
+</AnyConnectPreferences>

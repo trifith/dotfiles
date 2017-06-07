@@ -1,0 +1,7 @@
+[user]
+	name = Sean Murphy
+	email = smurphy@sessionm.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = /usr/bin/vim

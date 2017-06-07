@@ -1,0 +1,16 @@
+"*":
+  core:
+    disabledPackages: [
+      "remote-edit"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 10
+  "exception-reporting":
+    userId: "077427a4-e285-be0d-75e7-078b602ad01f"
+  "linter-puppet-lint":
+    oldVersion: false
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false
