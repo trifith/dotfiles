@@ -1,6 +1,6 @@
 .cfg
 .rvm
-.ssh/id_rsa 
+.ssh/id_rsa
 .aws
 .zsh_history
 .ssh/config
@@ -13,3 +13,4 @@
 .bash_sessions
 .bash_history
 .oracle_jre_usage
+.gnupg
