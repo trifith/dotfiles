@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "settings": {
+    "import/core-modules": ["atom"]
+  },
+  "rules": {
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
+  }
+}

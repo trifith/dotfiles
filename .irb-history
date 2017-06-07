@@ -1,0 +1,100 @@
+r.enable_loyalty_linking=true
+r.save!
+Player
+Player.find_by_email('smurphy@sessionm.com').rewards_system_id
+RewardsSystem.first.enable_loyalty_linking
+y developer.all
+y Developer.all
+EnterprisePointPool.create! :developer_id=>1, :description=>"smurphy pool AOP-1624"
+o = OrganizationTemplate.create!(:organization_id => 7, :name => "Test1Template", :template_type => "external_full_page", :body => "{\"message\":\"Hello world!\",\"header\":\"\\u003cstrong\\u003eTest\\u003c/strong\\u003e\",\"icon\":\"http://qa-sessionm.s3.amazonaws.com/1/f7/f/838/icon/600x200_1.png\"}")
+RewardsSystem.create!
+RewardsSystem.destroy 5
+RewardsSystem.create!(:name => 'SMM', id=> 6, :currency_name => 'SMM Points', :currency_symbol => 'S')
+RewardsSystem.destroy 6
+RewardsSystem.restore 6
+RewardsSystem.create!(:name => 'SMM', :id=> 6, :currency_name => 'SMM Points', :currency_symbol => 'S')
+Factory.create :rakuten_user, :player1
+Player.count
+Player.all
+Player.all[0].email
+Factory.create :rakuten_user, player
+OauthUser.create(:player => player, :provider => OauthProvider::RAKUTEN, :provider_id => "string1")
+player = Player.all[0]
+OauthUser.create(:player => player, :provider => OauthProvider::RAKUTEN, :provider_id => "string1", :email => player.email)
+player.user.oauth_provider_id = "string1"
+player.user.save
+Application.create
+Application.last
+Applicaition.first
+Application.first
+User.first
+User.last
+Resources.rewards_system.first
+Resources.rewards_system
+Account.create
+Account.create(:email => "smurphy@sessionm.com", :password => "8hv6(JB&&GC%6fx4", :password_confirmation => "8hv6(JB&&GC%6fx4", :id => 1)
+:q!
+require db/seeds
+require "db/seeds"
+require "db/seeds.rb"
+require "/Users/smurphy/work/grehound/core/db/seeds.rb"
+require "/Users/smurphy/work/greyhound/core/db/seeds.rb"
+Account.create(:email => "smurphy@sessionm.com", :password => "8hv6(JB&&GC%6fx4", :password_confirmation => "8hv6(JB&&GC%6fx4")
+Account.create!(:email => "smurphy@sessionm.com", :password => "8hv6(JB&&GC%6fx4", :password_confirmation => "8hv6(JB&&GC%6fx4")
+Account.create!(:email => "smurphy@sessionm.com", :password => "8hv6(JB&&GC%6fx4", :password_confirmation => "8hv6(JB&&GC%6fx4", :organization => 1)
+a=Account.new
+a.password = "8hv6(JB&&GC%6fx4"
+a.password_confirmation = "8hv6(JB&&GC%6fx4"
+Account.find(1)
+a
+a.has_role!(:super_admin)
+AdUnit
+AdUnit.first
+Account.first
+Account.first.email
+Account.find_by_email("smurphy@sessionm.com")
+Account.count
+Account.last
+a = Account.first
+a.email
+a.email_encrypted
+a.role
+a.email = 
+"smurphy@sessionm.com"
+a.has_role(:super_admin)
+a.has_role :super_admin
+a = Account.new
+a.email = "smurphy@sessionm.com"
+a.password = "testtest1"
+a.password_confirmation = "testtest1"
+a.organization = Organization.first
+a.has_role! :super_admin
+a.save!
+1 = 1
+1 == 1
+1 == 2
+1000 == 1_000
+1000 == 1,000
+1000 == 1_000_000
+1000 == 1_0_0_0
+1000.00 == 1_000.00
+1000.00 == 1_000.000_000
+1000.00 == 1_000.000_000_1
+1000 == 1_000.000_000_1
+1000 == 1_000.000_000
+exit
+:Environment
+DomainRole::SUPER_ADMIN
+r = Resources.rewards_system
+RewardsSystem.find(1)
+r = RewardsSystem.find(1)
+u = User.create!
+u = User.new
+u.attribute
+u.attributes
+u.destroy!
+u.email
+u.name
+u = User.create :source_application = Application.first
+u = User.create :source_application => Application.first
+u

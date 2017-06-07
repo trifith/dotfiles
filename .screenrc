@@ -1,0 +1,44 @@
+shell -$SHELL
+startup_message off
+
+term xterm
+termcapinfo xterm* ti@:te@
+mousetrack on
+
+screen -t "Q Logs"
+split 
+focus
+screen -t "Java" 
+split 
+focus
+screen -t "S CMS"
+split
+focus
+screen -t "QA Deploy"
+split
+focus
+screen -t "Spare 1"
+
+
+
+focus
+split -v
+focus
+screen -t "Q Deploy"
+focus
+split -v
+focus
+screen -t "Local Shell" 
+focus
+split -v
+focus
+screen -t "S Deploy"
+focus
+split -v
+focus
+screen -t "QA Other"
+focus
+split -v
+focus
+screen -t "Spare 2"
+focus

@@ -1,0 +1,13 @@
+.cfg
+.rvm
+.ssh/id_rsa 
+.aws
+.zsh_history
+.ssh/config
+.Trash
+.gradle
+.m2
+.ssh/known_hosts
+.ssh/known_hosts.old
+.ccm
+.bash_sessions

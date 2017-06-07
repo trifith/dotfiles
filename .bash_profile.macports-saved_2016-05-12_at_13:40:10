@@ -1,0 +1,15 @@
+export PATH=/usr/local/bin:$PATH
+export RAILS_ENV=development
+export CORE_HOST=smurphy-mbp.i.sessionm.com
+export PATH=/usr/local/sbin:$PATH:
+export ADMIN=~/work/greyhound/admin
+export ADVERTISER=~/work/greyhound/advertiser
+export CMS=~/work/cms-content
+export CORE=~/work/greyhound/core
+export DEVELOPER=~/work/greyhound/developer
+export ONDEMAND=~/work/greyhound/ondemand
+export THUNDER=~/work/thunderbirds
+export GOPATH=~/work/thunderbirds
+export CLASSPATH=~/work/lessons/Classpath:.
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+export MMC_STAGING=ondemand.s.sessionm.com
