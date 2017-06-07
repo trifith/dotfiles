@@ -11,3 +11,4 @@
 .ssh/known_hosts.old
 .ccm
 .bash_sessions
+.bash_history
