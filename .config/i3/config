@@ -193,6 +193,11 @@ bar {
         status_command exec ~/.config/i3status/mystatus.sh 0 
         position top
         tray_output HDMI-0
+        colors {
+          background #222222
+          statusline #00ff00
+        }
+        padding 2px
 }
 default_border pixel 3
 # Random Background
