@@ -87,7 +87,9 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
-
+export AWS_ACCESS_KEY_ID=$(pass aws_id)
+export AWS_SECRET_ACCESS_KEY=$(pass aws_secret)
+export AWS_DEFAULT_REGION=us-east-1
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
