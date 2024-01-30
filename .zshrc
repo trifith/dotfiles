@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Set XDG Config
+export XDG_CONFIG_HOME="$HOME/.config"
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -90,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 export AWS_ACCESS_KEY_ID=$(pass aws_id)
 export AWS_SECRET_ACCESS_KEY=$(pass aws_secret)
 export AWS_DEFAULT_REGION=us-east-1
+export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
+export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 

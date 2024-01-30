@@ -51,6 +51,7 @@ puppet
 python-bitarray
 python-urwid
 reflector
+s3cmd
 signal-desktop
 spotify-launcher
 steam
