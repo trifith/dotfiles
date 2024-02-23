@@ -45,6 +45,7 @@ obs-studio
 openal
 openrgb
 openssh
+pacman-contrib
 pass
 pdk
 picom
