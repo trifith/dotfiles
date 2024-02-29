@@ -120,3 +120,5 @@ alias top=htop
 PROMPT="%n@%m"$PROMPT
 neofetch
 alias config='/usr/bin/git --git-dir=/home/trifith/.cfg/ --work-tree=/home/trifith'
+alias fj='vim "$(date --iso-8601=seconds).md"'
+
