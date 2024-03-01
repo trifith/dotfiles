@@ -210,3 +210,5 @@ exec picom -b
 exec /usr/bin/discord
 exec /usr/bin/steam
 # exec /usr/bin/tribler
+for_window [window_role="alert"] floating enable
+no_focus [window_role="alert"]
