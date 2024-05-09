@@ -3,6 +3,9 @@ bambustudio-git
 base
 base-devel
 bind
+blueman
+bluez
+bluez-utils
 cronie
 discord
 dmenu
@@ -73,6 +76,7 @@ vim
 vlc
 wget
 whois
+wine
 xdg-user-dirs
 xorg-server
 yay
