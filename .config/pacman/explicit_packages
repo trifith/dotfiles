@@ -20,7 +20,10 @@ i3status
 imagemagick
 jq
 kitty
+kmix
 lf
+lib32-libpulse
+lib32-openal
 lightdm
 lightdm-gtk-greeter
 linux
@@ -54,6 +57,7 @@ pulseaudio-equalizer
 puppet
 python-bitarray
 python-urwid
+qbittorrent
 reflector
 s3cmd
 signal-desktop
