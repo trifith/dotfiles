@@ -6,7 +6,6 @@ bind
 blueman
 bluez
 bluez-utils
-ca-certificates
 cronie
 discord
 dmenu
