@@ -149,6 +149,22 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# Define monitors
+set $monitor_left "DP-1"
+set $monitor_right "HDMI-0"
+
+#assign workspace to monitor
+workspace $ws1 output $monitor_left
+workspace $ws2 output $monitor_left
+workspace $ws3 output $monitor_left
+workspace $ws4 output $monitor_left
+workspace $ws5 output $monitor_left
+workspace $ws6 output $monitor_right
+workspace $ws7 output $monitor_right
+workspace $ws8 output $monitor_right
+workspace $ws9 output $monitor_right
+workspace $ws10 output $monitor_right
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -199,7 +215,7 @@ bar {
         }
         padding 2px
 }
-default_border pixel 3
+default_border pixel 1
 # Random Background
 exec ~/bin/wallpaper.sh
 # openrgp
