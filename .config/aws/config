@@ -1,0 +1,17 @@
+[profile default]
+credential_process = pass aws_creds
+role_arn = arn:aws:iam::122048216306:role/readonly
+role_session_name = smurphy
+region = us-east-1
+
+[profile admin]
+credential_process = pass aws_creds
+role_arn = arn:aws:iam::122048216306:role/terraform
+role_session_name = smurphy-admin
+region = us-east-1
+
+[profile terraform]
+credential_process = pass aws_creds
+role_arn = arn:aws:iam::122048216306:role/terraform
+role_session_name = smurphy-terraform
+region = us-east-1
