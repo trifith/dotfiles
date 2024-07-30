@@ -90,6 +90,9 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+
+export AWS_ACCESS_KEY_ID=$(pass aws_id)
+export AWS_SECRET_ACCESS_KEY=$(pass aws_secret)
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
 export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
