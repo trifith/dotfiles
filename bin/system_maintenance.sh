@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set x
+
 # [Arch wiki](https://wiki.archlinux.org/title/System_maintenance)
 # [Remove orphaned packages](https://www.cyberciti.biz/faq/delete-remove-orphaned-unused-packages-arch-linux-pacman-command/)
 
