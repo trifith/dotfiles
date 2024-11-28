@@ -26,6 +26,13 @@ read -p "Press enter to continue, ctrl-C to abort"
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME add -u
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME commit -m "System Maintenance Commit"
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME push
+## Second Brain
+echo "Commit Documents changes to upstream git repo"
+/usr/bin/git --git-dir=$HOME/Documents/ diff
+read -p "Press enter to continue, ctrl-C to abort"
+/usr/bin/git --git-dir=$HOME/Documents/ add -u
+/usr/bin/git --git-dir=$HOME/Documents/ commit -m "System Maintenance Commit"
+/usr/bin/git --git-dir=$HOME/Documents/ push
 # Upgrade
 echo "Upgrade all packages."
 yay -Syu # inclues aur packages
