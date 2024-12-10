@@ -74,8 +74,12 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set foldmethod=syntax
 set nofoldenable
 
-" Wrap .md and files at 80 characters
+" Wrap .md and files at 80 characters, spellcheck, and underline misspelled
+" words.
 autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+autocmd BufRead,BufNewFile *.md setlocal spell spelllang=en_us
+autocmd BufRead,BufNewFile *.md hi clear SpellBad
+autocmd BufRead,BufNewFile *.md hi SpellBad cterm=underline
 
 " Start at last pos when opening a file
 if has("autocmd")
