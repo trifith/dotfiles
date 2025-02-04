@@ -9,6 +9,7 @@ blueman
 cronie
 cuda
 discord
+discord-canary
 dmenu
 feh
 firefox
@@ -51,6 +52,7 @@ openssh
 otf-openmoji
 pacman-contrib
 pass
+pcmanfm
 picom
 prismlauncher
 psensor
