@@ -215,7 +215,8 @@ bar {
         }
         padding 2px
 }
-default_border pixel 1
+default_border pixel 2
+client.focused    #E35407 #E35407 #E35407 #E35407 #E35407
 # Random Background
 exec ~/bin/wallpaper.sh
 # openrgp
