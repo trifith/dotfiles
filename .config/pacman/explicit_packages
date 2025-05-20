@@ -60,6 +60,7 @@ pulseaudio-alsa
 pulseaudio-equalizer
 qbittorrent
 reflector
+ruby
 s3cmd
 signal-desktop
 steam
@@ -74,6 +75,7 @@ traceroute
 ttf-liberation
 ttf-linux-libertine
 ttf-opendyslexic
+unigine-heaven
 unzip
 usbutils
 ventoy-bin
@@ -83,6 +85,7 @@ wget
 whois
 wine
 xdg-user-dirs
+xmrig
 xorg-server
 yay
 zip
