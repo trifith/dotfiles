@@ -66,6 +66,7 @@ signal-desktop
 steam
 terraform
 terraform-docs
+terraform-lsp
 texlive-binextra
 texlive-doc
 texlive-latex
