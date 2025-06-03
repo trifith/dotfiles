@@ -66,7 +66,7 @@ signal-desktop
 steam
 terraform
 terraform-docs
-terraform-lsp
+terraform-ls
 texlive-binextra
 texlive-doc
 texlive-latex
@@ -81,6 +81,7 @@ unzip
 usbutils
 ventoy-bin
 vim
+vim-coc
 vlc
 wget
 whois
