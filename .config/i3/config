@@ -220,7 +220,7 @@ client.focused    #E35407 #E35407 #E35407 #E35407 #E35407
 # Random Background
 exec ~/bin/wallpaper.sh
 # openrgp
-exec openrgb --startminimized
+# exec openrgb --startminimized
 # picom
 exec picom -b
 # exec /usr/bin/firefox
