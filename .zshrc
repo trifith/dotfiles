@@ -113,6 +113,7 @@ then
 fi
 alias realclear="command clear"
 alias top=htop
+alias vim=nvim
 
 # Start tmux on login
 # if [ -x "$(command -v tmux)" ] && [ -n "${DISPLAY}" ] && [ -z "${TMUX}" ]; then

@@ -10,6 +10,7 @@ cronie
 cuda
 discord
 dmenu
+fd
 feh
 firefox
 gimp
@@ -37,6 +38,7 @@ man-pages
 mkinitcpio-numlock
 nct6687d-dkms-git
 neofetch
+neovim
 nerd-fonts-git
 network-manager-applet
 networkmanager
@@ -61,6 +63,7 @@ pulseaudio-alsa
 pulseaudio-equalizer
 qbittorrent
 reflector
+ripgrep
 ruby
 s3cmd
 signal-desktop
@@ -82,11 +85,11 @@ unzip
 usbutils
 ventoy-bin
 vim
-vim-coc
 vlc
 wget
 whois
 wine
+xclip
 xdg-user-dirs
 xmrig
 xorg-server
