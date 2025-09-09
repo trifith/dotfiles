@@ -59,6 +59,7 @@ pacman-contrib
 pass
 pcmanfm
 picom
+pokerth
 prismlauncher
 psensor
 pulseaudio-alsa
@@ -88,6 +89,8 @@ usbutils
 ventoy-bin
 vim
 vlc
+vlc-plugin-x264
+vlc-plugins-all
 wget
 whois
 wine
