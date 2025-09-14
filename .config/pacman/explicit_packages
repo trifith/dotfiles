@@ -13,6 +13,7 @@ dmenu
 fd
 feh
 firefox
+gdb
 gimp
 git
 gnucash
@@ -35,15 +36,18 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 linux-headers
+lldb
 lutris
 man-pages
 mkinitcpio-numlock
+momw-tools-pack
 nct6687d-dkms-git
 neofetch
 neovim
 nerd-fonts-git
 network-manager-applet
 networkmanager
+notification-daemon
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -89,6 +93,7 @@ unrar
 unzip
 usbutils
 ventoy-bin
+vfstool-git
 vim
 vlc
 vlc-plugin-x264

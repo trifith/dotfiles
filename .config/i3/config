@@ -227,6 +227,7 @@ exec picom -b
 exec /usr/bin/discord
 exec /usr/bin/steam
 exec /usr/bin/keepassxc
+exec /usr/lib/notification-daemon-1.0/notification-daemon
 # exec /usr/bin/tribler
 for_window [window_role="alert"] floating enable
 no_focus [window_role="alert"]
