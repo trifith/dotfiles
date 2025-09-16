@@ -69,6 +69,7 @@ prismlauncher
 psensor
 pulseaudio-alsa
 pulseaudio-equalizer
+pulseaudio-jack
 qbittorrent
 reflector
 ripgrep
