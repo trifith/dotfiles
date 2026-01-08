@@ -1,3 +1,4 @@
+actual-bin
 amd-ucode
 arch-install-scripts
 bambustudio-git
@@ -57,7 +58,7 @@ noto-fonts-emoji
 ntfs-3g
 ntp
 numlockx
-nvidia
+nvidia-open
 obs-studio
 openmw
 openrgb
