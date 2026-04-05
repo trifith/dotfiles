@@ -1,5 +1,6 @@
 actual-appimage
 amd-ucode
+arandr
 arch-install-scripts
 bambustudio-git
 base
@@ -66,6 +67,7 @@ openssh
 otf-openmoji
 pacman-contrib
 pass
+pavucontrol
 pcmanfm
 picom
 pokerth
@@ -73,8 +75,6 @@ prismlauncher
 protontricks
 psensor
 pulseaudio-alsa
-pulseaudio-equalizer
-pulseaudio-jack
 qbittorrent
 r2modman-bin
 reflector
