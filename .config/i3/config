@@ -151,7 +151,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Define monitors
 set $monitor_left "DP-5"
-set $monitor_right "HDMI-0"
+set $monitor_right "DP-3"
 
 #assign workspace to monitor
 workspace $ws1 output $monitor_left
@@ -208,7 +208,7 @@ bar {
 #        status_command i3status --config ~/.config/i3status/i3status.conf 
         status_command exec ~/.config/i3status/mystatus.sh 0 
         position top
-        tray_output HDMI-0
+        tray_output DP-3
         colors {
           background #222222
           statusline #00ff00
@@ -228,6 +228,7 @@ exec /usr/bin/discord
 # exec /usr/bin/steam
 exec /usr/bin/keepassxc
 exec /usr/lib/notification-daemon-1.0/notification-daemon
+exec /usr/bin/easyeffects
 # exec /usr/bin/tribler
 for_window [window_role="alert"] floating enable
 no_focus [window_role="alert"]

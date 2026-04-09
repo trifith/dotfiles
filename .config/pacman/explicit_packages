@@ -12,6 +12,7 @@ cronie
 cuda
 discord
 dmenu
+easyeffects
 fastfetch
 fd
 feh
@@ -42,6 +43,7 @@ linux
 linux-firmware
 linux-headers
 lldb
+lsp-plugins
 lutris
 man-pages
 mkinitcpio-numlock
@@ -117,5 +119,6 @@ xmrig
 xorg-server
 yay
 zip
+zoom
 zsa-keymapp-bin
 zsh
