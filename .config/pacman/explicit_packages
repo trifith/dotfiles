@@ -2,14 +2,17 @@ actual-appimage
 amd-ucode
 arandr
 arch-install-scripts
-bambustudio-git
+audacity
+bambustudio-bin
 base
 base-devel
 bind
 blender
 blueman
+calf
 cronie
 cuda
+deepfilternet-plugin-pipewire-bin
 discord
 dmenu
 easyeffects
@@ -46,6 +49,7 @@ lldb
 lsp-plugins
 lutris
 man-pages
+mda.lv2
 mkinitcpio-numlock
 momw-tools-pack
 nct6687d-dkms-git
@@ -118,6 +122,7 @@ xdg-user-dirs
 xmrig
 xorg-server
 yay
+zam-plugins
 zip
 zoom
 zsa-keymapp-bin
