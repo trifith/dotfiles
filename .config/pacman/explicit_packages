@@ -42,13 +42,16 @@ kmix
 less
 lf
 lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
 linux
 linux-firmware
 linux-headers
 lldb
 lsp-plugins
 lutris
+lxappearance
 man-pages
+materia-gtk-theme
 mda.lv2
 mkinitcpio-numlock
 momw-tools-pack
@@ -72,6 +75,7 @@ openrgb
 openssh
 otf-openmoji
 pacman-contrib
+papirus-icon-theme
 pass
 pavucontrol
 pcmanfm
@@ -84,6 +88,7 @@ pulseaudio-alsa
 qbittorrent
 r2modman-bin
 reflector
+retroarch
 ripgrep
 ruby
 s3cmd
