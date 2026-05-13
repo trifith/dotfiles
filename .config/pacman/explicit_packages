@@ -43,6 +43,7 @@ kitty
 kmix
 less
 lf
+lib32-obs-vkcapture
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 linux
@@ -71,8 +72,8 @@ ntfs-3g
 ntp
 numlockx
 nvidia-open
-obs-studio
-obs-studio-plugin-browser
+obs-studio-browser
+obs-vkcapture
 openrgb
 openssh
 otf-openmoji
@@ -119,6 +120,7 @@ ventoy-bin
 vfstool-git
 vim
 vlc
+vlc-luajit
 vlc-plugin-x264
 vlc-plugins-all
 wget
