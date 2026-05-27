@@ -151,7 +151,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Define monitors
 set $monitor_left "DP-5"
-set $monitor_right "DP-1"
+set $monitor_right "DP-3"
+set $monitor_tv "DP-1"
 
 #assign workspace to monitor
 workspace $ws1 output $monitor_left
@@ -236,4 +237,6 @@ no_focus [window_role="alert"]
 for_window [class="discord"] move to workspace $ws1
 for_window [class="steamwebhelper"] move to workspace $ws7
 
+# Screenshots saved to ~/Pictures/screenshot/
+bindsym $mod+p exec --no-startup-id /usr/bin/maim "/home/$USER/Picture/$(date -Is)"
 
