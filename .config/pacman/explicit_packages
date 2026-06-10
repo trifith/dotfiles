@@ -74,8 +74,6 @@ ntfs-3g
 ntp
 numlockx
 nvidia-open
-obs-studio-browser
-obs-vkcapture
 obsidian
 openrgb
 openssh
@@ -125,7 +123,6 @@ ventoy-bin
 vfstool-git
 vim
 vlc
-vlc-luajit
 vlc-plugin-x264
 vlc-plugins-all
 wget
