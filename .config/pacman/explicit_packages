@@ -38,6 +38,7 @@ imagemagick
 informant
 jdk21-openjdk
 jq
+keep-presence
 keepassxc
 kitty
 kmix
@@ -75,6 +76,7 @@ numlockx
 nvidia-open
 obs-studio-browser
 obs-vkcapture
+obsidian
 openrgb
 openssh
 otf-openmoji
@@ -109,6 +111,7 @@ texlive-latex
 texlive-latexrecommended
 the_silver_searcher
 traceroute
+tree-sitter-cli
 tribler-bin
 ttf-liberation
 ttf-linux-libertine
