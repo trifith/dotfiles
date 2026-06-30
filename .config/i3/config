@@ -116,7 +116,7 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Discord"
 set $ws2 "2: Firefox"
-set $ws3 "3: Steam Chat"
+set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6: Firefox"
@@ -221,21 +221,21 @@ client.focused    #E35407 #E35407 #E35407 #E35407 #E35407
 # Random Background
 exec ~/bin/wallpaper.sh
 # openrgb
-exec openrgb --startminimized
+# exec openrgb --startminimized
 # picom
 exec picom -b
 # exec /usr/bin/firefox
 exec /usr/bin/discord
 # exec /usr/bin/steam
-exec /usr/bin/keepassxc
+# exec /usr/bin/keepassxc
 exec /usr/lib/notification-daemon-1.0/notification-daemon
-exec /usr/bin/easyeffects
+# exec /usr/bin/easyeffects
 # exec /usr/bin/tribler
 for_window [window_role="alert"] floating enable
 no_focus [window_role="alert"]
 
 for_window [class="discord"] move to workspace $ws1
-for_window [class="steamwebhelper"] move to workspace $ws7
+#for_window [class="steamwebhelper"] move to workspace $ws7
 
 # Screenshots saved to ~/Pictures/screenshot/
 bindsym $mod+p exec --no-startup-id /usr/bin/maim "/home/$USER/Picture/$(date -Is)"
