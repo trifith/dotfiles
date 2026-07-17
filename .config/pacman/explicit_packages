@@ -24,6 +24,7 @@ feh
 filezilla
 firefox
 freecad
+gamemode
 gdb
 gimp
 git
@@ -46,6 +47,7 @@ kitty
 kmix
 less
 lf
+lib32-gamemode
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 linux
@@ -102,6 +104,7 @@ s3cmd
 satisfactory-mod-manager
 signal-desktop
 steam
+teams-for-linux
 terraform
 terraform-docs
 terraform-ls
